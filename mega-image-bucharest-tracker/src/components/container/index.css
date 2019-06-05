@@ -1,0 +1,39 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 2.4em;
+}
+
+.front-container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 80%;
+    height: 95%;
+    left: 0;
+    right: 0;
+    top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px white solid;
+}
+
+.back-container {
+    height: 100%;
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        padding-top: 0%;
+        font-size: 1.6em;
+    }
+    .front-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    text-align: center;
+    margin: 0 auto;
+    height: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 850px) {
+    .footer {
+        width: 100%;
+    }
+}
