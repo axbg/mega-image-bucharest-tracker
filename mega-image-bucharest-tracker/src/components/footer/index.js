@@ -6,7 +6,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <h6>This is the footer</h6>
+                <h6>pentru că unele întrebări merită un răspuns</h6>
             </div>
         )
     }

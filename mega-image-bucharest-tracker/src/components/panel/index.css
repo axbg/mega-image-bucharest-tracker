@@ -1,11 +1,29 @@
 .panel {
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.4);
     text-align: center;
     margin: 0 auto;
     height: 80%;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.data-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.data-number {
+    font-size: 7em;
+    text-shadow: -1px 0 black, 0 1px black, 10px 0 black, 0 -1px black;
 }
 
 @media only screen and (max-width: 850px) {

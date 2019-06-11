@@ -3,7 +3,7 @@
     width: 100%;
     background-color: whitesmoke;
     box-sizing: border-box;
-    font-size: 2.4em;
+    font-size: 3em;
 }
 
 .front-container {
@@ -16,7 +16,6 @@
     top: 2%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px white solid;
 }
 
 .back-container {
@@ -25,15 +24,24 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: blur(5px) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+    filter: blur(5px) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(500%) contrast(0.9);
 }
 
 @media only screen and (max-width: 850px) {
     .container {
         padding-top: 0%;
-        font-size: 1.6em;
+        font-size: 2.2em;
     }
     .front-container {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .container {
+        font-size: 1.7em;
+    }
+    .front-container {
+        width: 96%;
     }
 }
