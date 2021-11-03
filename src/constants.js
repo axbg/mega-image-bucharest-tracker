@@ -1,0 +1,5 @@
+module.exports = {
+    PROXY_URL: "http://localhost:8000",
+    MEGA_IMAGE_URL:  "url=https://api.mega-image.ro/",
+    MEGA_IMAGE_REQUEST_BODY: 'body=%7B%22operationName%22%3A%22StoreSearchMapPins%22%2C%22variables%22%3A%7B%22pageSize%22%3A9999%2C%22lang%22%3A%22ro%22%2C%22query%22%3A%22%22%7D%2C%22query%22%3A%22query%20StoreSearchMapPins(%24lang%3A%20String%24query%3A%20String%2C%20%24latitude%3A%20Float%2C%20%24longitude%3A%20Float%2C%20%24radius%3A%20Float%2C%20%24pageSize%3A%20Int%2C%20%24currentPage%3A%20Int%2C%20%24sort%3A%20String)%20%7B%5Cn%20%20storeSearchMapPins(lang%3A%20%24lang%2C%20query%3A%20%24query%2C%20latitude%3A%20%24latitude%2C%20longitude%3A%20%24longitude%2C%20radius%3A%20%24radius%2C%20pageSize%3A%20%24pageSize%2C%20currentPage%3A%20%24currentPage%2C%20sort%3A%20%24sort)%5Cn%7D%5Cn%22%7D',
+}

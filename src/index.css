@@ -23,5 +23,5 @@ code {
 
 @font-face {
   font-family: BebasNeue;
-  src: url('/BebasNeue.woff');
+  src: url('./fonts/BebasNeue.woff');
 }
