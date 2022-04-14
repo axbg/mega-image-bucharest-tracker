@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import SyncLoader from 'react-spinners/SyncLoader';
 
 export default function Panel(props) {
     return (
@@ -8,12 +7,7 @@ export default function Panel(props) {
             <div className="data-container">
                 {
                     !props.shops ?
-                        <SyncLoader
-                            sizeUnit={"px"}
-                            size={25}
-                            color={'white'}
-                            loading={true}
-                        />
+                        <p>loading...</p>
                         :
                         <p className="data-number">
                             {props.shops}
